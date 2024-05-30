@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    
 }
 
 nav {
@@ -15,4 +16,25 @@ nav {
 
 .airbnb-logo {
     max-width: 100px;
+}
+.hero{
+    max-width: 450px;
+    margin: 2em auto;
+    font-family:Poppins, sans-serif;
+}
+.grid{
+  
+    text-align: center;
+    width:100%;
+}
+.hero h1{
+font-size: 36px;
+font-weight: 700;
+color:#000;
+}
+.hero p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#222;
+    max-width: 300px;
 }
