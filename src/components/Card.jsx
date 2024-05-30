@@ -10,12 +10,16 @@ export default function Card() {
       />
       <div className="card-body">
         <div className="card-stats">
-        <img src="../images/star.png" alt="red star" className="star-img" />
-        <span>5.0</span>
-        <span>(6) • </span>
-        <span>USA</span></div>
+          <img src="../images/star.png" alt="red star" className="card-star" />
+          <span>5.0</span>
+          <span className="gray">(6) • </span>
+          <span className="gray">USA</span>
+        </div>
         <p>Life lessons with Katie Zaferes</p>
-       <p> <strong>From $136</strong>/person</p>
+        <p>
+          {" "}
+          <span className="bold">From $136</span>/person
+        </p>
       </div>
     </section>
   );
