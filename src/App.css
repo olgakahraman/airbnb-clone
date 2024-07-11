@@ -1,93 +1,103 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Poppins, sans-serif;
+	margin: 0;
+	font-family: Poppins, sans-serif;
 }
 
 nav {
-  height: 70px;
-  display: flex;
-  padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	height: 70px;
+	display: flex;
+	padding: 20px 36px;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 h2 {
-  font-size: 0.75rem;
-  font-weight: normal;
+	font-size: 0.75rem;
+	font-weight: normal;
 }
 .gray {
-  color: #918e9b;
+	color: #918e9b;
 }
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 .airbnb-logo {
-  max-width: 100px;
+	max-width: 100px;
 }
 section {
-  margin: auto;
-  padding: 20px;
+	margin: auto;
+	padding: 20px;
 }
 .hero {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .grid {
-  max-width: 400px;
-  align-self: center;
+	max-width: 400px;
+	align-self: center;
 }
 .hero h1 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 16px;
+	font-size: 36px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 16px;
 }
 .hero p {
-  margin-top: 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #222;
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #222;
 }
 .card {
-  width: 176px;
-  font-size: 0.75rem;
+	width: 176px;
+	font-size: 0.75rem;
+	flex: 0 0 auto;
+	display: flex;
+	flex-direction: column;
+  position:relative;
 }
 .card-image {
-  width: 100%;
-  border-radius: 9px;
+	width: 100%;
+	border-radius: 9px;
+	margin-bottom: 9px;
 }
-.card-stats {
-  display: flex;
-  align-items: center;
-}
+
 .card-star {
-  height: 14px;
+	height: 14px;
 }
 
 .cards-list {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 20px;
+	overflow-x: auto;
 }
 .card-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .card-body {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .card-star {
-  height: 14px;
+	height: 14px;
 }
 
-/* ADD */
 .card-price {
-  margin-top: auto;
+	margin-top: auto;
+}
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
